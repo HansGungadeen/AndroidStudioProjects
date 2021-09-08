@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "69876523767",
+    "firebase_url": "https://polyblog-eb474-default-rtdb.firebaseio.com",
+    "project_id": "polyblog-eb474",
+    "storage_bucket": "polyblog-eb474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69876523767:android:18f29430b375e7acc729f2",
+        "android_client_info": {
+          "package_name": "com.example.polyblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69876523767-bgeafiu3gm5eim23jfusdg4kfblqp7m5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.polyblog",
+            "certificate_hash": "190536cb4d950f982276820bd79c592734f31afd"
+          }
+        },
+        {
+          "client_id": "69876523767-5ommd7piv6i3aoudo204iqcfjk13a9v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5is6oIB-C410ELgAi6vXjqZ-NtuzBY_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69876523767-5ommd7piv6i3aoudo204iqcfjk13a9v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

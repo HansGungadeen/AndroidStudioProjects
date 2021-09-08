@@ -1,0 +1,25 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.8'
+
+        // FirebaseUI for Firebase Realtime Database
+        implementation 'com.firebaseui:firebase-ui-database:7.2.0'
+
+        // FirebaseUI for Cloud Firestore
+        implementation 'com.firebaseui:firebase-ui-firestore:7.2.0'
+
+        // FirebaseUI for Firebase Auth
+        implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+
+        // FirebaseUI for Cloud Storage
+        implementation 'com.firebaseui:firebase-ui-storage:7.2.0'
+
+        // Import the BoM for the Firebase platform
+        implementation platform('com.google.firebase:firebase-bom:28.2.0')
+
+        // Declare the dependency for the Firebase Authentication library
+        // When using the BoM, you don't specify versions in Firebase library dependencies
+        implementation 'com.google.firebase:firebase-auth'
+    }
+}// This empty file along with settings.gradle help Android Studio recognize the project
+// as a gradle project, despite the use of .gradle.kts scripts.

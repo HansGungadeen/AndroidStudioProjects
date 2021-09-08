@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color0">#010B14</color>
+    <color name="color1">#021627</color>
+    <color name="color2">#03203A</color>
+    <color name="color3">#042B4E</color>
+    <color name="color4">#053661</color>
+    <color name="color5">#064174</color>
+    <color name="color6">#074C88</color>
+    <color name="color7">#08569B</color>
+    <color name="color8">#0961AE</color>
+    <color name="color9">#0A6CC2</color>
+    <color name="color10">#0B77D5</color>
+    <color name="color11">#0C82E9</color>
+    <color name="color12">#168CF3</color>
+    <color name="color13">#2A96F4</color>
+    <color name="color14">#3D9FF5</color>
+    <color name="color15">#51A9F6</color>
+    <!--    Dark font-->
+    <color name="color16">#64B2F7</color>
+    <color name="color17">#77BCF8</color>
+    <color name="color18">#8BC5F9</color>
+    <color name="color19">#9ECFFA</color>
+    <color name="color20">#B1D9FB</color>
+    <color name="color21">#C5E2FC</color>
+    <color name="color22">#D8ECFD</color>
+    <color name="color23">#ECF5FE</color>
+    <color name="color24">#FFFFFF</color>
+
+
+    <color name="grey">#3B4B53</color>
+    <color name="darkgrey">#263238</color>
+    <color name="colorNotSelected">#b0bec5</color>
+    <color name="colorBackground">#f9f9f9</color>
+    <color name="colorRedDebug">#B22222</color>
+    <color name="colorToolbarWhite">#ededed</color>
+
+    <color name="colorPrimary">#039be5</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#fb8c00</color>
+
+    <color name="cardview_color">#eaf2ff</color>
+
+
+    <!--    Original Colurs-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+</resources>

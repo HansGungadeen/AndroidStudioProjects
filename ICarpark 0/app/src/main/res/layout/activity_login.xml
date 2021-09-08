@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="40dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="303dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"
+        app:srcCompat="@drawable/logosmall"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textWebEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#8E8787"
+        android:textSize="18dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_lock"
+        android:layout_marginBottom="30dp"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#8E8787"
+        android:textSize="18dp"
+        android:layout_below="@+id/Email"
+        app:passwordToggleEnabled="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Password"
+        android:layout_centerHorizontal="true"
+        android:onClick="login_process"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:background="@color/color14"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.282"/>
+
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#00BCD4"-->
+<!--        android:gravity="center"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.2"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button"-->
+<!--        app:layout_constraintVertical_bias="0.498" />-->
+
+<!--    <ListView-->
+<!--        android:id="@+id/lv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="540dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:background="@color/teal_700"-->
+<!--        android:gravity="center"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.421"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    <ListView-->
+<!--        android:id="@+id/lv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="52dp"-->
+<!--        android:layout_marginRight="52dp"-->
+<!--        android:layout_marginBottom="132dp"-->
+<!--        android:background="#00BCD4"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+
+</RelativeLayout>

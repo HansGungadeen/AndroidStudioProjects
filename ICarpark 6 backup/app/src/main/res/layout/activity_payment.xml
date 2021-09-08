@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf2ff"
+    tools:context=".Payment">
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#00BCD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+
+    <TextView
+        android:id="@+id/tv0"
+        android:layout_width="289dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="12dp"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="Confirm Booking"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="368dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="Location:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+
+        android:id="@+id/tvlocation"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="336dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="304dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="Slot Number:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvslotnumber"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="240dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="FromTime:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="176dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="ToTime:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="Duration:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:text="Amount Payable:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvFromTime"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="208dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvToTime"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvDuration"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+
+        android:id="@+id/tvAmount"
+        android:layout_width="264dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#eaf2ff"
+        android:gravity="left"
+        android:radius="25dp"
+        android:shape="rectangle"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/paybtn1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/paybtn1"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_custom"
+        android:onClick="process"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="103dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/booking" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/lv"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_________________________________________"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

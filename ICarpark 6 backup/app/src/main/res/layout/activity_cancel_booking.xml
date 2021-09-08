@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CancelBooking">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logosmall" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Valid Booking"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#eaf2ff" />
+
+
+
+    <Button
+        android:id="@+id/bt_cancelbooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Cancel" />
+
+
+</LinearLayout>

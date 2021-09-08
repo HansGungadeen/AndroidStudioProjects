@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@drawable/lot"
+    tools:context=".Slots">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Choose Your Slot"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="-220dp"/>
+
+        <Spinner
+            android:layout_marginTop="20dp"
+            android:id="@+id/spinnerSlots"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:background="@color/teal_700"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            />
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:id="@+id/getText"
+            android:background="@drawable/rounded_button"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:layout_marginLeft="125dp"
+            android:layout_marginRight="125dp"
+            android:textSize="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PolyBlog</string>
+
+    <!--    fragment-->
+    <string name="comment">Comment</string>
+    <string name="add_comment">Add Comment</string>
+    <string name="events">Event</string>
+    <string name="edit_profile">Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/main_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_polyBlog"
+        android:text="PolyBlog"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/first"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/button_comments"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_polyBlog"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/first"
+        android:text="Comments"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/view_events"
+        android:layout_centerHorizontal="true"
+        android:text="View Events"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/button_comments"
+        android:layout_below="@+id/text_polyBlog"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/first"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/add_comment"
+        android:layout_marginLeft="50dp"
+        android:text="Add Comment"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/view_events"
+        android:backgroundTint="@color/first"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:id="@+id/courses"
+        android:text="Course"
+        android:layout_below="@+id/view_events"
+        android:layout_toRightOf="@+id/add_comment"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/first"/>
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/add_comment"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="About/Contact"
+        android:textStyle="bold"
+        android:backgroundTint="@color/first"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/courses"
+        android:backgroundTint="#F44336"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Logout"
+        android:id="@+id/logout"
+        android:layout_toRightOf="@+id/about"
+        android:layout_marginLeft="30dp"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pml_logo"/>
+    </RelativeLayout>
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:layout_below="@+id/text_polyBlog">-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+
+<!--    <ImageButton-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:src="@drawable/comment"-->
+<!--        android:scaleType="fitStart"-->
+
+
+
+
+
+
+</RelativeLayout>

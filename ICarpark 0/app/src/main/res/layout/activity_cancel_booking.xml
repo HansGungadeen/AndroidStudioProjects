@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".CancelBooking">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:text="Valid Booking"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/valid_booking"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_below="@+id/valid_booking"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_below="@+id/date"/>
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:layout_below="@+id/tv"/>
+
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_cancelbooking"
+        android:text="Cancel"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/lv"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

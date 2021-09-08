@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".NewBooking">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Choose Your Location"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/chooseL"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinnerLocation"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/spinnerstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/chooseL"
+        android:layout_centerHorizontal="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Select Your Slot"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/spinnerLocation"
+        android:id="@+id/select_slot"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinnerSlots"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/spinnerstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/select_slot"
+        android:layout_centerHorizontal="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/getText"
+            android:backgroundTint="@color/color10"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/color24"
+            android:layout_marginLeft="125dp"
+            android:layout_marginRight="125dp"
+            android:textSize="15dp"
+            android:layout_below="@+id/spinnerSlots"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+
+
+<!--    <Button-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/button1"-->
+<!--        android:background="@drawable/rounded_button"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Port Louis"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginLeft="125dp"-->
+<!--        android:layout_marginRight="125dp"-->
+<!--        android:textSize="20dp" />-->
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/button2"-->
+<!--        android:background="@drawable/rounded_button"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Moka"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginLeft="125dp"-->
+<!--        android:layout_marginRight="125dp"-->
+<!--        android:textSize="20dp" />-->
+</RelativeLayout>

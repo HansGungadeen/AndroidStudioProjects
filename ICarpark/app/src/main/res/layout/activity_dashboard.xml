@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".Dashboard"
+    android:backgroundTint="#EAF2FF">
+
+<!--    <ImageView-->
+<!--        android:layout_width="230dp"-->
+<!--        android:layout_height="114dp"-->
+<!--        android:src="@drawable/logo"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:id="@+id/applogo"/>-->
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-17dp"
+        android:gravity="center"
+        android:text="Username Error"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_booking"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/booking"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_booking"
+                        android:layout_centerInParent="true"
+                        android:text="New Booking"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button1"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_cancelbooking"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/cancel"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_cancelbooking"
+                        android:layout_centerInParent="true"
+                        android:text="Cancel Booking"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button2"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_profile"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/profile"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_profile"
+                        android:layout_centerInParent="true"
+                        android:text="Profile"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button3"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_mybooking"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/reservation"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_mybooking"
+                        android:layout_centerInParent="true"
+                        android:text="My Booking"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button4"/>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_help"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/help"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_help"
+                        android:layout_centerInParent="true"
+                        android:text="Help"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button8"/>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_color">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/image_logout"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/logout"
+                        android:scaleType="fitCenter"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_logout"
+                        android:layout_centerInParent="true"
+                        android:text="Logout"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:id="@+id/button5"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="60dp"
+                        android:onClick="logout_process"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:textStyle="italic" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="133dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pmllogo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:text="Powered By"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="New Booking"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:layout_below="@+id/image_booking"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@color/color11"/>-->
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button1"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:background="@drawable/button_custom"-->
+<!--        android:text="Cancel Booking"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button3"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button2"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:background="@drawable/button_custom"-->
+<!--        android:text="Profile"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button4"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button3"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:background="@drawable/button_custom"-->
+<!--        android:text="My Bookings"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/button8"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button4"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:background="@drawable/button_custom"-->
+<!--        android:text="Help"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/button8"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:background="@drawable/button_custom"-->
+<!--        android:onClick="logout_process"-->
+<!--        android:text="Logout"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="italic" />-->
+
+</RelativeLayout>

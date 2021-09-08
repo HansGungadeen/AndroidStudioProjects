@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCommentTest"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment Form"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameText"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseText"
+        android:hint="Enter Course Name"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/nameText"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentText"
+        android:hint="Enter Comment"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/courseText"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_comment"
+        android:layout_below="@+id/commentText"
+        android:layout_marginTop="20dp"
+        android:text="Insert Comment"/>
+
+
+
+</RelativeLayout>

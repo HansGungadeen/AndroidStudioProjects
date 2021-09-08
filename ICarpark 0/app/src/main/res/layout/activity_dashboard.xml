@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".Dashboard">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-17dp"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Username Error"
+        android:id="@+id/tv"
+        android:layout_below="@+id/welcome"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:backgroundTint="#2868D7"
+        android:textColor="@color/color24"
+        android:text="New Booking"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/tv"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:backgroundTint="@color/color10"
+        android:textColor="@color/color24"
+        android:text="Cancel Booking"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/button1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:backgroundTint="@color/color10"
+        android:textColor="@color/color24"
+        android:text="Profile"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/button2"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:backgroundTint="@color/color10"
+        android:textColor="@color/color24"
+        android:text="My Bookings"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/button3"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:backgroundTint="@color/color10"
+        android:textColor="@color/color24"
+        android:text="Help"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/button4"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:backgroundTint="#EF5350"
+        android:textColor="@color/color24"
+        android:text="Logout"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:onClick="logout_process"
+        android:textSize="20dp"
+        android:layout_below="@+id/button8"/>
+
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/button6"-->
+<!--        android:background="@drawable/rounded_button"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Fetch data"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:textSize="20dp"/>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/button7"-->
+<!--        android:background="@drawable/rounded_button"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:text="Session"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        android:layout_marginRight="60dp"-->
+<!--        android:textSize="20dp"/>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30sp"-->
+<!--        android:textSize="20dp"-->
+<!--        android:text="Logout"-->
+<!--        android:onClick="logout_process"-->
+<!--        android:layout_gravity="center_vertical"/>-->
+
+
+
+
+
+</RelativeLayout>

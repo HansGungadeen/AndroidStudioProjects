@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About_us">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pml_logo"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/logopage_iot"/>
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Courses We Offer"
+                android:layout_below="@+id/logopage_iot"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/about_courses"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The mission of polytechnics is to inspire students, nature a broad mindset and carve out professional that lead and transform, fostering growth, harmony and sustainability in Mauritius and beyond."
+                android:layout_below="@+id/about_courses"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:id="@+id/about_courses_content"
+                android:layout_margin="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/about_courses_content"
+                android:background="@color/forth"
+                android:id="@+id/about_vision_i"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Vision"
+
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/vision_title"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To innovate and craft a high-skills eco-system that makes us a world class powerhouse"
+                    android:layout_below="@+id/vision_title"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/about_vision_i"
+                android:background="@color/forth"
+                android:id="@+id/strategic_intent"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Strategic Intent"
+
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/about_vision"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transform the higher and technical education sector by challenging assumptions and providing long term solutions that create skilled and competent industry-focused managers and leaderse"
+                    android:layout_below="@+id/about_vision"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/about_vision_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/strategic_intent"
+                android:background="@color/forth"
+                android:id="@+id/Epic"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We Are Epic"
+
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/epicTitle"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="E: Experimental\n\nP: Passion\n\nI: Integrity\n\nC: Co-Creation"
+                    android:layout_below="@+id/epicTitle"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/epic_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Epic"
+                android:background="@color/forth"
+                android:id="@+id/our_values"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Values"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/values_title"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="At Polytechnics Mauritius, values go beyond the writings on wall, they embody the life code through which impact . Students, teachers, staff and stakeholders come together in this unique concoction of values. They defiine how we take every step forward."
+                    android:layout_below="@+id/values_title"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/values_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/our_values"
+                android:background="@color/forth"
+                android:id="@+id/our_mission"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Mission"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/mission_title"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="To inspire students, nurture a broad mindset and carve out professionals that lead and transform industry, fostering growth, harmony and sustainability in Mauritius and beyond."
+                    android:layout_below="@+id/mission_title"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/mission_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/our_values"
+                android:background="@color/forth"
+                android:id="@+id/our_culture"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Culture"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/black"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:id="@+id/culture_title"
+                    android:layout_marginBottom="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Symbols are important. Coming up with new ways of doing things stretches the body and the mind and reinvigorates the spirit. This is why PML is sharply focused on developing culture on and off campus."
+                    android:layout_below="@+id/culture_title"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/culture_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_margin="10dp"/>
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

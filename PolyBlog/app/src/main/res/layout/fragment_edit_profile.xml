@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstname_field"
+        android:hint="First Name"
+        android:gravity="center"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/field_email"
+        android:hint="Email"
+        android:gravity="center"
+        android:layout_marginTop="150dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit_comment"
+        android:layout_below="@+id/field_email"
+        android:layout_marginTop="220dp"
+        android:text="Save Settings"/>
+
+
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:text="Edit Profile" />-->
+
+</FrameLayout>

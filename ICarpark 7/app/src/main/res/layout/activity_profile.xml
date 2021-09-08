@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profile">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+
+        android:background="#013c58">
+
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="253dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="-17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/profile" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#eaf2ff">
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+
+<!--            android:background="#DA1744">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView5"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginLeft="-85dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                android:text="My History" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView5"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_width="50dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                app:srcCompat="@android:drawable/ic_menu_recent_history" />-->
+
+
+<!--        </FrameLayout>-->
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@android:drawable/ic_dialog_alert"
+            app:tint="#837777" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:layout_marginTop="-70dp"
+            android:textSize="20dp"
+            android:text="More features coming soon!!!" />
+
+        <!--        <FrameLayout-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="#8F17DA">-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/textView7"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginLeft="-75dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="20dp"-->
+<!--                android:text="Update Profile" />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView6"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_width="40dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                app:srcCompat="@android:drawable/stat_sys_upload" />-->
+
+
+<!--        </FrameLayout>-->
+
+    </FrameLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PolyBlog</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login_to_account">Login to account</string>
+    <string name="to_register">Don\'t have an account? Click here to register.</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register_text">Register</string>
+    <string name="go_to_login">Already have an account? Click here to log in.</string>
+    <string name="logo">logo</string>
+    <string name="save_setting">Save Settings</string>
+    <string name="biography">Bio</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+</resources>

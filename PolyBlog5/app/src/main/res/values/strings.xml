@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PolyBlog</string>
+    <string name="Know_More">https://poly.ac.mu/it-emerging-technologies/diploma-in-internet-of-things/</string>
+
+    <string-array name="Courses">
+        <item>Diploma In Internet of Things</item>
+        <item>Diploma In Big Data</item>
+        <item>Diploma In Cyber Security</item>
+        <item>Diploma In Interactive &amp; Digital Media</item>
+    </string-array>
+</resources>

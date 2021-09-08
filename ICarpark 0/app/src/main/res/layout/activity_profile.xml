@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".Profile">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Profile"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/profile"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_below="@+id/profile"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="Booking Timing"-->
+    <!--            android:gravity="center"/>-->
+    <!--        -->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="From"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:gravity="center"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/date"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:gravity="center"/>-->
+
+
+    <!--        <EditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:id="@+id/FromTime"-->
+    <!--            android:inputType="time"-->
+    <!--            android:padding="12dp"-->
+    <!--            android:background="#B7CCCC"/>-->
+
+    <!--        <TextView-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:text="To"-->
+    <!--            android:gravity="center"/>-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/date2"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:gravity="center"/>-->
+
+
+    <!--        <EditText-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:id="@+id/ToTime"-->
+    <!--            android:inputType="time"-->
+    <!--            android:padding="12dp"-->
+    <!--            android:background="#B7CCCC"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:id="@+id/bt_generate"-->
+    <!--            android:text="Generate"-->
+    <!--            android:layout_marginTop="16dp"/>-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/iv_output"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        />-->

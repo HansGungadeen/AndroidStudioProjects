@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CRUD_FIREBASE</string>
+
+
+    <array name="genres">
+        <item>Pop</item>
+        <item>Afrobeat</item>
+        <item>Moombahton</item>
+    </array>
+</resources>
